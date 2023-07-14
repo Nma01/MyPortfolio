@@ -1,0 +1,46 @@
+
+.sect-pad {
+    padding: 40px 20px;
+}
+
+.container {
+
+    margin: auto;
+    /* padding: 0 20px; */
+}
+
+/* About Section */
+#about > div{
+    grid-template-columns: 1fr ;
+}
+
+#about img{
+    width: 100%;
+}
+
+
+/* PORTFOLIO section */
+#work .box {
+    grid-template-columns: 1fr ;
+    text-align: center;
+   
+}
+
+.carousel-item {
+    padding:0 100px;
+}
+
+
+
+
+
+/* CONTACT section */
+.contact-info {
+    grid-template-columns: 1fr;
+}
+
+.form-dets {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
